@@ -1,0 +1,77 @@
+body{
+	background-color: whitesmoke;
+}
+
+.leftToRight{
+	display: flex;
+}
+
+.directionColumn{
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	/* background: pink; */
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Courier New', Courier, monospace;
+	color: darkolivegreen;
+	padding: 7px;
+	border-bottom: 1px #ccc solid;
+}
+
+.Menu{
+	display: inline;
+	margin: 10px;
+}
+
+.left-menu{
+	/* background: antiquewhite; */
+	width: 170px;
+	border-right: 1px #ccc solid;
+}
+
+.content{
+	/* background: aqua; */
+	flex: 1;
+	display: flex;
+}
+
+.content img{
+	max-width: 100px;
+	max-height: 130px;
+	border-radius: 6px;
+}
+
+.goods{
+	margin: 5px;
+	/* border: 1px #ccc solid; */
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.footer{
+	text-align: center;
+	color: #ccc;
+	border-top: 1px #ccc solid;
+}
+
+.section{
+	color: lightslategrey;
+	font: 22px;
+	font-style: italic;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 5px;
+}
+.best{
+	color: lightsalmon;
+}
+
+.TiTleAuthor{
+	font: 20px;
+	font-family: monospace;
+	max-width: 110px;
+}
