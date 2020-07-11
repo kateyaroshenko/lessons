@@ -1,9 +1,55 @@
 body{
-	background-color: whitesmoke;
+	background-color: cornsilk;
+	font-family: 'Courier New', Courier, monospace;
 }
 
-.leftToRight{
+.header{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	color: darkolivegreen;
+	padding: 7px;
+	border-bottom: 2px #ccc solid;
+}
+
+.menu{
+	border-bottom: 2px #ccc solid;
 	display: flex;
+}
+
+.menu ul{
+	padding: 0;
+	list-style: none;
+    list-style-type: none;
+    margin: 10px;
+	margin-left: 10px;
+	
+}
+
+li {
+	border: 1px #FAF solid;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 20px;
+    padding-left: 10px;
+	cursor: pointer;
+	text-align: center;
+	border-color: darkolivegreen;
+}
+
+.button:hover{
+	border: 1px #a8a solid;
+	background: lemonchiffon;
+}
+
+a {
+	color: olive;
+	font-weight: bold;
+}
+
+.content{
+	display: flex;
+    flex-wrap: wrap;
 }
 
 .directionColumn{
@@ -11,67 +57,76 @@ body{
 	flex-direction: column;
 }
 
-.header{
-	/* background: pink; */
-	text-align: center;
-	font-size: 40px;
-	font-family: 'Courier New', Courier, monospace;
-	color: darkolivegreen;
-	padding: 7px;
-	border-bottom: 1px #ccc solid;
-}
-
-.Menu{
-	display: inline;
-	margin: 10px;
-}
-
-.left-menu{
-	/* background: antiquewhite; */
-	width: 170px;
-	border-right: 1px #ccc solid;
-}
-
-.content{
-	/* background: aqua; */
-	flex: 1;
-	display: flex;
-}
-
 .content img{
-	max-width: 100px;
-	max-height: 130px;
+	max-width: 270px;
+	max-height: 330px;
 	border-radius: 6px;
+	min-width: 200px;
+	min-height: 260px;
 }
 
 .goods{
 	margin: 5px;
-	/* border: 1px #ccc solid; */
     display: flex;
     justify-content: center;
 	align-items: center;
 	padding: 5px;
+	width: 23%;
+}
+
+.title {
+	color:  darkolivegreen;
+	text-align: center;
+}
+
+.buttonRow{
+	display: flex;
+}
+.buttonAdd, .buttonDel{
+	margin-left: 7px;
+	margin-right: 7px;
+	border: 1px darkolivegreen solid;
+	border-radius: 3px;
+	color:  darkolivegreen;
+}
+
+.buttonAdd:hover, .buttonDel:hover{
+	border: 1px #a8a solid;
+	background: lemonchiffon;
+}
+
+.infoPrice{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.goodsInfo{
+	display: block;
+}
+
+table {
+	width: 100%;
+	margin-top: 10px;
+	color: darkolivegreen;
+}
+
+table td{
+	border: 1px darkolivegreen solid;
+}
+
+/* table td:hover{
+	border: 1px red solid;
+} */
+
+.colName{
+	background-color: lightsteelblue;
+}
+
+.colValue{
+	background-color: linen;
 }
 
 .footer{
-	text-align: center;
-	color: #ccc;
-	border-top: 1px #ccc solid;
+	border-top: 2px #ccc solid;
 }
 
-.section{
-	color: lightslategrey;
-	font: 22px;
-	font-style: italic;
-	font-family: 'Courier New', Courier, monospace;
-	padding: 5px;
-}
-.best{
-	color: lightsalmon;
-}
-
-.TiTleAuthor{
-	font: 20px;
-	font-family: monospace;
-	max-width: 110px;
-}
